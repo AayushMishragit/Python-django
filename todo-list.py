@@ -1,27 +1,27 @@
-# import random
-# number = random.randint(1,100)
-#   # For testing purposes, remove or comment this line in production
-# life = 7
-# max_life = 0
-# print("🔢🔢enter your number between 1 to 100 🔢🔢")
-# while life > 0:
-#     try:
-#         guees = int(input(f"Attempt {life+1} enter the number:"))
-#         life -= 1
+import random
+number = random.randint(1,100)
+  # For testing purposes, remove or comment this line in production
+life = 7
+max_life = 0
+print("🔢🔢enter your number between 1 to 100 🔢🔢")
+while life > 0:
+    try:
+        guees = int(input(f"Attempt {life+1} enter the number:"))
+        life -= 1
 
-#         if guees == number:
-#             print("🏆You win!!!")   
-#             break 
-#         elif guees > number:
-#             print("Too high📈")
-#         elif guees < number:
-#             print("Too low📉")    
+        if guees == number:
+            print("🏆You win!!!")   
+            break 
+        elif guees > number:
+            print("Too high📈")
+        elif guees < number:
+            print("Too low📉")    
 
-#     except ValueError:
-#         print("Invalid input! Please enter a valid integer❌")
+    except ValueError:
+        print("Invalid input! Please enter a valid integer❌")
 
-# if life ==  0 and guees != number:
-#     print(f"☹️\tYou lose!!! The number was {number}")           
+if life ==  0 and guees != number:
+    print(f"☹️\tYou lose!!! The number was {number}")           
 
 print("Budget Tracker")
 class BudgetTracker:
