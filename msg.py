@@ -3,9 +3,9 @@ import pyautogui
 import time
 
 # 2-second delay before opening WhatsApp
-time.sleep(2)
+time.sleep(1)
 
-pywhatkit.sendwhatmsg_instantly("+91 86023 60225", "hello scripted msg",tab_close=True, close_time=3)
+pywhatkit.sendwhatmsg_instantly("+91 90393 02613", "hello scripted msg",tab_close=False,)
 
 # WhatsApp Web ko type karne ka time dene ke liye thoda wait
 time.sleep(4)
@@ -13,3 +13,4 @@ time.sleep(4)
 # Auto-enter to send the message
 pyautogui.press("enter")
 print("Message sent successfully!")
+#final project completed
