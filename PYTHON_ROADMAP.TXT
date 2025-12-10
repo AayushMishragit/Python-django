@@ -1,0 +1,27 @@
+PYTHON CARRIERS ROADMAP
+
+1. wen dev
+-django/flask
+-rest api
+-full-stack development
+
+2.data science
+-Pandas,numpy
+-Machine learning(skit -learn)
+-data visualization
+
+3.automation
+-Selenium
+-Task automation
+-web Scraping
+
+4. Machine Learning/AI 
+-Tenserflow,Pytorch
+-Deep learning
+-NLP
+
+NEXT STEPS
+-built Projects
+-Contribute to open source
+-prctice leetcode
+-join python communities
